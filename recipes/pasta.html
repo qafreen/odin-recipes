@@ -4,31 +4,64 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .container{
+        width: 70%;
+        margin: 0 auto;
+        }
+        img{
+            width: 50%;  
+        }
+        .box{
+            /* border: 2px solid black; */
+            margin: 4px;
+        }
+        .recipe{
+            display: flex;
+        }
+        #ingredients{
+            width: 38%;
+        }
+    </style>
 </head>
 <body>
-    <h1>Pasta</h1>
-    <img src="https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
-    <h2>Description</h2>
-    <p>Simple Tomato Garlic Pasta is a quick and flavorful dish that combines the robustness of tomatoes with the aromatic intensity of garlic. It's an easy-to-make recipe that’s perfect for a weeknight dinner, offering a comforting and satisfying meal with minimal effort.</p>
-    <h2>Ingredients</h2>
-    <ul>
-        <li>8 oz pasta (spaghetti, penne, or your choice)</li>
-        <li>2 tablespoons olive oil</li>
-        <li>3 cloves garlic, minced</li>
-        <li>1 (14.5 oz) can diced tomatoes</li>
-        <li>1/2 teaspoon dried basil</li>
-        <li>1/2 teaspoon dried oregano</li>
-        <li>Salt and pepper to taste</li>
-        <li>1/4 cup grated Parmesan cheese</li>
-        <li>Fresh basil or parsley (optional, for garnish)</li>
-    </ul>
-    <h2>Steps</h2>
-    <ol>
-        <li>Boil pasta in salted water according to package instructions. Drain and set aside.</li>
-        <li> Heat olive oil in a pan over medium heat. Add garlic and sauté until fragrant, about 1 minute.</li>
-        <li>Stir in diced tomatoes, basil, oregano, salt, and pepper. Simmer for 5-7 minutes.</li>
-        <li>Toss the cooked pasta with the tomato sauce.</li>
-        <li>Top with grated Parmesan cheese and fresh basil or parsley if desired.</li>
-    </ol>
+    <div class="container">
+        <div class="box">
+            <h1>Pasta</h1>
+        </div>
+    <div class="box">
+        <img src="https://images.pexels.com/photos/1437267/pexels-photo-1437267.jpeg?auto=compress&cs=tinysrgb&w=600" alt="">
+    </div>
+    <div class="box">
+        <h2>Description</h2>
+        <p>Simple Tomato Garlic Pasta is a quick and flavorful dish that combines the robustness of tomatoes with the aromatic intensity of garlic. It's an easy-to-make recipe that’s perfect for a weeknight dinner, offering a comforting and satisfying meal with minimal effort.</p>
+    </div>
+    <div class="recipe">
+        <div class="box" id="ingredient">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>8 oz pasta (spaghetti, penne, or your choice)</li>
+                <li>2 tablespoons olive oil</li>
+                <li>3 cloves garlic, minced</li>
+                <li>1 (14.5 oz) can diced tomatoes</li>
+                <li>1/2 teaspoon dried basil</li>
+                <li>1/2 teaspoon dried oregano</li>
+                <li>Salt and pepper to taste</li>
+                <li>1/4 cup grated Parmesan cheese</li>
+                <li>Fresh basil or parsley (optional, for garnish)</li>
+            </ul>
+        </div>
+        <div class="box" id="steps">
+            <h2>Steps</h2>
+            <ol>
+                <li>Boil pasta in salted water according to package instructions. Drain and set aside.</li>
+                <li> Heat olive oil in a pan over medium heat. Add garlic and sauté until fragrant, about 1 minute.</li>
+                <li>Stir in diced tomatoes, basil, oregano, salt, and pepper. Simmer for 5-7 minutes.</li>
+                <li>Toss the cooked pasta with the tomato sauce.</li>
+                <li>Top with grated Parmesan cheese and fresh basil or parsley if desired.</li>
+            </ol>
+        </div>
+    </div>
+    </div>
 </body>
 </html>
